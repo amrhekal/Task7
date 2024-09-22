@@ -114,6 +114,7 @@ function createCards(applications) {
   <p class="col-12">Salary: ${application.salary}</p>
   <p class="col-12">Email: ${application.email}</p>
   <p class="col-12">Marital Status: ${application.maritalStatus}</p>
+  <p class="col-12">Experience: ${application.experience}</p>
   <i class="fa-solid fa-pen-to-square text-warning fs-2" role="button" onclick="editCard(${index})"></i>
   <i class="fa-solid fa-trash text-danger fs-2 ms-auto" role="button" onclick= "deleteCard(${index})" ></i>
  </div>
